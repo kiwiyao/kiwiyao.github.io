@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
 
-You can use the [editor on GitHub](https://github.com/kiwiyao/kiwiyao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have made this into a Jekyll Theme.
+**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
 
-### Markdown
+The default theme would look like this
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme.png)
 
-```markdown
-Syntax highlighted code block
+The theme is responsive
 
-# Header 1
-## Header 2
-### Header 3
+![online cv responsive Jekyll theme](/assets/images/online-cv-responsive-jekyll-theme.png)
 
-- Bulleted
-- List
+There are 6 color schemes available
 
-1. Numbered
-2. List
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme-2.png)
 
-**Bold** and _Italic_ and `Code` text
+# Installation: 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-[Link](url) and ![Image](src)
-```
+[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## How to delete old **gh-pages** branch?
+After forking the repository, click on **branches**.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kiwiyao/kiwiyao.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
 
-### Support or Contact
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
+
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
+
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted. If not select a branch as source.
+
+
+Check out for more themes: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes)
